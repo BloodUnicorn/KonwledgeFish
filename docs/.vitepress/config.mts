@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/KnowledgeFish/",
   title: "知识鱼",
   description: "快捷查找网络资源，收纳常用工具",
   head: [
